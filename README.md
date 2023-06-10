@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Sonali
-- 👀 I’m interested in Web Development
+- 👀 I’m a Web Developer
 
 <!---
 sonalisidana13/sonalisidana13 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
