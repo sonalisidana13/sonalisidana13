@@ -1,6 +1,6 @@
 ### Hi there, I'm Sonali Sidana! 👋
 
-🚀 **Senior Product Engineer | Full-Stack Developer | Cloud Enthusiast**
+🚀 **Senior Product Engineer | Full-Stack Developer**
 
 I am a passionate software engineer with expertise in **frontend and backend development, cloud services, and system architecture**. With hands-on experience in **Java, Spring Boot, ReactJS, AngularJS, MySQL, NoSQL, and AWS services**, I love building scalable and efficient solutions.
 
