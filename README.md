@@ -18,8 +18,8 @@ I am a passionate software engineer with expertise in **frontend and backend dev
 <!--
 ### 🏆 LeetCode Stats
 ![LeetCode Stats](https://leetcard.jacoblin.cool/sonali_sidana?theme=dark&font=Monospace)
--->
 ---
+-->
 
 ### 📫 Connect with Me
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/sonali-sidana-1310/)
