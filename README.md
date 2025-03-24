@@ -15,10 +15,10 @@ I am a passionate software engineer with expertise in **frontend and backend dev
 - 🌱 **Currently Exploring:** System Design, High-Performance Computing
 
 ---
-
+<!--
 ### 🏆 LeetCode Stats
 ![LeetCode Stats](https://leetcard.jacoblin.cool/sonali_sidana?theme=dark&font=Monospace)
-
+-->
 ---
 
 ### 📫 Connect with Me
