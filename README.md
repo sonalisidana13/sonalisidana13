@@ -17,7 +17,7 @@ I am a passionate software engineer with expertise in **frontend and backend dev
 ---
 
 ### 🏆 LeetCode Stats
-![LeetCode Stats](https://leetcard.jacoblin.cool/your-leetcode-username?theme=dark&font=Monospace)
+![LeetCode Stats](https://leetcard.jacoblin.cool/sonali_sidana?theme=dark&font=Monospace)
 
 ---
 
