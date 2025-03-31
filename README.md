@@ -8,8 +8,8 @@ I am a passionate software engineer with expertise in **frontend and backend dev
 
 ### 🔥 About Me
 - 💻 **Languages & Frameworks:** Java, Spring Boot, ReactJS, AngularJS, JavaScript, TypeScript
-- ☁️ **Cloud & DevOps:** AWS (Lambda, S3, CloudFront, etc.), Docker, CI/CD
-- 📊 **Databases:** MySQL, PostgreSQL, MongoDB
+- ☁️ **Cloud & DevOps:** AWS (Lambda, S3, CloudFront, etc.), CI/CD
+- 📊 **Databases:** MySQL
 - 📚 **Certifications:** SQL & Programming Foundations
 - 🎓 **Education:** MCA from VIT, Vellore | BCA from MCM DAV College for Women, Chandigarh
 - 🌱 **Currently Exploring:** System Design, High-Performance Computing
