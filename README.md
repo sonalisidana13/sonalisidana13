@@ -23,7 +23,7 @@ I’m a passionate software engineer with expertise in **frontend and backend de
 ![LeetCode Stats](https://leetcard.jacoblin.cool/sonali_sidana?theme=dark&font=Monospace)
 
 ---
-
+### 👀 Visitors
 ![Visitor Count](https://profile-counter.glitch.me/sonalisidana13/count.svg)
 
 ---
