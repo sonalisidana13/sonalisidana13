@@ -27,6 +27,10 @@ I’m a passionate software engineer with expertise in **frontend and backend de
 ![Visitor Count](https://profile-counter.glitch.me/sonalisidana13/count.svg)
 
 ---
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=sonalisidana13&layout=compact)
+
+---
 ### 📫 Connect with Me
 
 [![Website](https://img.shields.io/badge/Website-sonalisidana.com-0A0A0A?style=flat&logo=Google-Chrome&logoColor=white)](https://sonalisidana.com)  
