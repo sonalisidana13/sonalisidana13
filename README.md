@@ -15,7 +15,9 @@ I’m a passionate software engineer with expertise in **frontend and backend de
   - [Programming Foundations with JavaScript, HTML, and CSS – Coursera](https://coursera.org/share/de082f4aed5c2aecc9bac87b9e474b28)  
   - [SQL Skill Certification – HackerRank](https://www.hackerrank.com/certificates/cefe7388b11a)  
 - 🎓 **Education:** MCA – VIT, Vellore | BCA – MCM DAV College for Women, Chandigarh  
-- 🌱 **Currently Exploring:** System Design, High-Performance Computing, Cloud-native architecture  
+- 🌱 **Currently Exploring:** System Design, High-Performance Computing, Cloud-native architecture
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=sonalisidana13&layout=compact)
 
 ---
 
@@ -27,8 +29,6 @@ I’m a passionate software engineer with expertise in **frontend and backend de
 ![Visitor Count](https://profile-counter.glitch.me/sonalisidana13/count.svg)
 
 ---
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=sonalisidana13&layout=compact)
 
 ---
 ### 📫 Connect with Me
