@@ -1,7 +1,6 @@
 ### Hi there, I'm Sonali Sidana! 👋
 
 🚀 **Senior Product Engineer | Full-Stack Developer**  
-🌐 [sonalisidana.com](https://sonalisidana.com)
 
 I’m a passionate software engineer with expertise in **frontend and backend development, cloud services, and system architecture**. With hands-on experience in **Java, Spring Boot, ReactJS, AngularJS, MySQL, NoSQL, and AWS**, I love building **scalable and efficient solutions** that solve real-world problems.
 
@@ -34,7 +33,7 @@ I’m a passionate software engineer with expertise in **frontend and backend de
 
 ### 📫 Connect with Me
 
-[![Website](https://img.shields.io/badge/Website-sonalisidana.com-0A0A0A?style=flat&logo=Google-Chrome&logoColor=white)](https://sonalisidana.com)  
+[![Portfolio](https://img.shields.io/badge/Website-sonalisidana.com-0A0A0A?style=flat&logo=Google-Chrome&logoColor=white)](https://sonalisidana.com)  
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/sonali-sidana-1310/)  
 [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat&logo=github)](https://github.com/sonalisidana13)  
 [![Email](https://img.shields.io/badge/Email-me-red?style=flat&logo=gmail)](mailto:sonalisidana13@gmail.com)
