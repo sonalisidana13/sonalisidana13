@@ -48,9 +48,9 @@ Currently focused on **scalable backend systems, observability, distributed arch
 
 ---
 
-## 📈 GitHub Stats
+## 📊 GitHub Stats
 
-![Sonali's GitHub Stats](https://github-readme-stats.vercel.app/api?username=sonalisidana13&show_icons=true&theme=tokyonight)
+![Sonali's GitHub Stats](https://github-readme-stats.vercel.app/api?username=sonalisidana13&show_icons=true&theme=tokyonight&count_private=true)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sonalisidana13&layout=compact&theme=tokyonight)
 
