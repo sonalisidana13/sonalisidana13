@@ -85,13 +85,13 @@ Backend engineer with 6+ years building and scaling distributed systems — prog
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sonalisidana13&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=7F77DD&icon_color=1D9E75&text_color=8b949e&rank_icon=github" height="160" alt="GitHub Stats"/>
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sonalisidana13&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=7F77DD&text_color=8b949e&langs_count=6" height="160" alt="Top Languages"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sonalisidana13&theme=github_dark" width="100%" alt="GitHub Activity"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=sonalisidana13&theme=github-dark-blue&hide_border=true&background=0d1117&ring=534AB7&fire=D85A30&currStreakLabel=7F77DD" alt="GitHub Streak"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sonalisidana13&theme=github_dark" height="160" alt="Repos Per Language"/>
+  &nbsp;&nbsp;
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=sonalisidana13&theme=github_dark" height="160" alt="Most Used Language"/>
 </p>
 
 ---
