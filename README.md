@@ -1,96 +1,113 @@
-# Hi there, I'm Sonali Sidana 👋
+<p align="center">
+  <img src="banner.svg" alt="Sonali Sidana — Senior Software Engineer & Tech Lead" width="100%" />
+</p>
 
-🚀 **Senior Software Engineer · Tech Lead · Backend & Platform**
-
-Backend platform engineer with 6+ years scaling a SaaS from 20K to 300K+ users across 200+ institutions — progressed from engineer to Tech Lead owning an 8-person team while staying hands-on in Java, Spring Boot, AWS, and distributed systems.
-
-I specialize in **distributed systems**, **microservices architecture**, **cloud infrastructure**, and **observability-driven engineering**. I enjoy solving complex reliability and scalability problems at production scale.
-
-[![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=sonalisidana13.sonalisidana13)](https://github.com/sonalisidana13)
+<br>
 
 ---
 
 ## 🔧 Tech Stack
 
-**Backend**
-Java · Spring Boot · REST APIs · Microservices · Apache Kafka · Redis
+<p align="center">
 
-**Cloud & Infrastructure**
-AWS (EC2, S3, RDS, Lambda, SQS, CloudWatch, Athena) · Azure Blob · DigitalOcean Spaces · Docker
+**Backend**<br>
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-005571?style=for-the-badge&logo=fastapi&logoColor=white)
 
-**Data**
-MySQL · Elasticsearch (multi-node) · PostgreSQL · NoSQL
+**Cloud & Infrastructure**<br>
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure_Blob-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white)
 
-**Observability**
-Prometheus · Grafana · Loki · New Relic · JavaMelody
+**Data & Search**<br>
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
-**Frontend**
-ReactJS · AngularJS · JavaScript (ES6)
+**Observability**<br>
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![New Relic](https://img.shields.io/badge/New_Relic-008C99?style=for-the-badge&logo=newrelic&logoColor=white)
+
+**Frontend**<br>
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![AngularJS](https://img.shields.io/badge/AngularJS-E23237?style=for-the-badge&logo=angularjs&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+</p>
 
 ---
 
-## 🏗 Projects
+## 🏗 Personal Projects
 
 ### 📬 Event-Driven Notification Service with Rate Limiting
-*Java 21 · Spring Boot 3.2 · Apache Kafka · Redis · PostgreSQL · Prometheus · Docker*
-&nbsp;[[GitHub]](https://github.com/sonalisidana13/notification-service)
+> `Java 21` `Spring Boot 3.2` `Apache Kafka` `Redis` `PostgreSQL` `Prometheus` `Docker`
+> &nbsp; **[[GitHub ↗]](https://github.com/sonalisidana13/notification-service)**
 
-- Architected 3 independent Spring Boot microservices (ingest → enricher → dispatcher) with intentionally separate Kafka topics — decoupling domain events from notification intent for independent replay, versioning, and consumer scaling.
-- Implemented a Redis sliding window rate limiter via atomic Lua script (EVALSHA), partitioned by `userId/channel/tenant` — chose sliding window over token bucket to prevent burst accumulation.
-- Designed at-least-once delivery with application-level idempotency via a `delivery_log` table; DLQ with exponential backoff + full jitter prevents thundering herd on mass failures.
+Three independent microservices — `ingest → enricher → dispatcher` — with separate Kafka topics. Redis sliding window rate limiter via atomic Lua script (`EVALSHA`), partitioned by `userId/channel/tenant`. At-least-once delivery with idempotency; DLQ with exponential backoff + full jitter.
 
 ---
 
 ### 🗂 Cloud-Agnostic File Storage Microservice
-*Spring Boot · PostgreSQL · Cloudflare R2 · AWS S3 · Docker · Flyway · Render*
-&nbsp;[[GitHub]](https://github.com/sonalisidana13/Cloud-Agnostic-File-Storage-Microservice) · [[Live Demo]](https://cloud-agnostic-file-storage-microse.vercel.app/)
+> `Spring Boot 3` `PostgreSQL` `Cloudflare R2` `AWS S3` `Docker` `Flyway`
+> &nbsp; **[[GitHub ↗]](https://github.com/sonalisidana13/Cloud-Agnostic-File-Storage-Microservice)** · **[[Live Demo ↗]](https://cloud-agnostic-file-storage-microse.vercel.app/)**
 
-- Personal implementation of the cloud-agnostic storage architecture I designed at Digii — built end-to-end in Spring Boot 3 to validate the HLD at a smaller scale.
-- Pluggable `StorageProvider` abstraction (Cloudflare R2 / AWS S3) switchable via a single env var; presigned URL flow ensures files upload directly to storage, bypassing the backend entirely.
-- Tenant-scoped metadata in PostgreSQL (Flyway) tracking full file lifecycle (`PENDING → UPLOADED → FAILED`); reconciliation poller auto-recovers stale uploads every 60s.
+Pluggable `StorageProvider` abstraction (Cloudflare R2 / AWS S3) switchable via a single env var. Presigned URL flow bypasses the backend entirely. Tenant-scoped lifecycle tracking (`PENDING → UPLOADED → FAILED`) with a reconciliation poller that auto-recovers stale uploads every 60s.
 
 ---
 
 ### 🤖 AI Incident Explainer *(in progress)*
-*Java · Elasticsearch · Prometheus · LLM APIs*
-&nbsp;[[GitHub]](https://github.com/sonalisidana13/Incident-Explainer)
+> `Java` `Elasticsearch` `Prometheus` `LLM APIs`
+> &nbsp; **[[GitHub ↗]](https://github.com/sonalisidana13/Incident-Explainer)**
 
-- AI-powered tool that correlates logs and metrics to explain production incidents — RAG-based knowledge retrieval over historical incident data.
-
----
-
-## 💡 What I've Built at Scale
-
-- **Cloud-agnostic attachment microservice** — extracted from monolith, supports AWS S3 / Azure Blob / DigitalOcean Spaces across 30TB of data and 50+ product modules; reduced cloud storage costs by 50%.
-- **Multi-node Elasticsearch architecture** — eliminated single-node downtime, layered Redis caching (event-driven invalidation + TTL), cut ES call volume by 50% and search latency by 40% under 1,000 concurrent users.
-- **Multi-tenant outage diagnosis & fix** — identified JVM thread pool exhaustion via New Relic, isolated tenant onto a dedicated EC2 fleet, restored availability within 2 minutes.
-- **Observability stack from scratch** — Prometheus, Grafana, Loki, New Relic, JavaMelody; proactive SLO tracking and incident detection across all production services.
+AI-powered tool that correlates logs and metrics to explain production incidents — RAG-based knowledge retrieval over historical incident data.
 
 ---
 
-## 🧠 Engineering Interests
+## 👩‍💻 About Me
 
-- Distributed systems design and reliability
-- Observability-driven engineering
-- Cloud infrastructure optimization
-- Event-driven architectures
+Backend engineer with 6+ years building and scaling distributed systems — progressed from engineer to Tech Lead while staying hands-on in Java, Spring Boot, and AWS. I enjoy designing resilient architectures and diving deep into observability and reliability problems.
+
+---
+
+## 🧠 Currently Exploring
+
+- Advanced distributed systems patterns
 - AI-assisted engineering workflows
+- Event-driven architecture at scale
 
 ---
 
-## 🏆 LeetCode
+## 📊 GitHub Stats
 
-[![LeetCode Stats](https://leetcard.jacoblin.cool/sonali_sidana?theme=dark&font=Monospace)](https://leetcode.com/sonali_sidana/)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=sonalisidana13&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=7F77DD&icon_color=1D9E75&text_color=8b949e&rank_icon=github" height="160" alt="GitHub Stats"/>
+  &nbsp;&nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sonalisidana13&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=7F77DD&text_color=8b949e&langs_count=6" height="160" alt="Top Languages"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=sonalisidana13&theme=github-dark-blue&hide_border=true&background=0d1117&ring=534AB7&fire=D85A30&currStreakLabel=7F77DD" alt="GitHub Streak"/>
+</p>
 
 ---
 
 ## 🌍 Connect
 
-[![Portfolio](https://img.shields.io/badge/Website-sonalisidana.com-black?style=flat&logo=Google-Chrome&logoColor=white)](https://sonalisidana.com)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/sonali-sidana-1310/)
-[![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat&logo=github)](https://github.com/sonalisidana13)
-[![Email](https://img.shields.io/badge/Email-me-red?style=flat&logo=gmail)](mailto:sonalisidana13@gmail.com)
+<p align="center">
+  <a href="https://sonalisidana.com"><img src="https://img.shields.io/badge/Portfolio-sonalisidana.com-0d1117?style=for-the-badge&logo=google-chrome&logoColor=5DCAA5&labelColor=0d1117&color=1D9E75"/></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/sonali-sidana-1310/"><img src="https://img.shields.io/badge/LinkedIn-sonali--sidana--1310-0d1117?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117&color=534AB7"/></a>
+  &nbsp;
+  <a href="mailto:sonalisidana13@gmail.com"><img src="https://img.shields.io/badge/Email-sonalisidana13@gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117&color=D85A30"/></a>
+</p>
 
----
+<br>
 
-⭐ I build systems that **scale under load, stay observable in production, and solve real problems.**
+<p align="center">
+  <sub>⭐ I build systems that <strong>scale under load, stay observable, and solve real problems.</strong></sub>
+</p>
