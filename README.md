@@ -60,14 +60,6 @@ Pluggable `StorageProvider` abstraction (Cloudflare R2 / AWS S3) switchable via 
 
 ---
 
-### 🤖 AI Incident Explainer *(in progress)*
-> `Java` `Elasticsearch` `Prometheus` `LLM APIs`
-> &nbsp; **[[GitHub ↗]](https://github.com/sonalisidana13/Incident-Explainer)**
-
-AI-powered tool that correlates logs and metrics to explain production incidents — RAG-based knowledge retrieval over historical incident data.
-
----
-
 ## 👩‍💻 About Me
 
 Backend engineer with 6+ years building and scaling distributed systems — progressed from engineer to Tech Lead while staying hands-on in Java, Spring Boot, and AWS. I enjoy designing resilient architectures and diving deep into observability and reliability problems.
