@@ -1,0 +1,108 @@
+<svg width="100%" viewBox="0 0 680 220" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Sonali Sidana — Senior Software Engineer &amp; Tech Lead</title>
+  <desc>Animated GitHub profile banner with distributed systems node graph aesthetic</desc>
+  <defs>
+    <linearGradient id="fade-r" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0d1117" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="fade-b" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0.6"/>
+    </linearGradient>
+    <style>
+      @keyframes pulse1 { 0%,100%{r:4;opacity:1} 50%{r:6;opacity:.6} }
+      @keyframes pulse2 { 0%,100%{r:3;opacity:.7} 50%{r:5;opacity:1} }
+      @keyframes pulse3 { 0%,100%{r:3.5;opacity:.5} 50%{r:5.5;opacity:.9} }
+      @keyframes dash1  { to{stroke-dashoffset:-24} }
+      @keyframes dash2  { to{stroke-dashoffset:-16} }
+      @keyframes dash3  { to{stroke-dashoffset:-20} }
+      @keyframes fadein { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+      @keyframes blink  { 0%,100%{opacity:1} 50%{opacity:0} }
+      .n1{animation:pulse1 2.4s ease-in-out infinite}
+      .n2{animation:pulse2 3.1s ease-in-out infinite .4s}
+      .n3{animation:pulse3 2.8s ease-in-out infinite .9s}
+      .n4{animation:pulse1 3.4s ease-in-out infinite 1.2s}
+      .n5{animation:pulse2 2.6s ease-in-out infinite .6s}
+      .n6{animation:pulse3 3.0s ease-in-out infinite 1.5s}
+      .n7{animation:pulse1 2.9s ease-in-out infinite .3s}
+      .n8{animation:pulse2 3.3s ease-in-out infinite .8s}
+      .e1{stroke-dasharray:6 4;animation:dash1 1.4s linear infinite}
+      .e2{stroke-dasharray:4 5;animation:dash2 2.0s linear infinite .3s}
+      .e3{stroke-dasharray:5 4;animation:dash3 1.7s linear infinite .7s}
+      .e4{stroke-dasharray:4 6;animation:dash1 2.2s linear infinite 1.0s}
+      .e5{stroke-dasharray:6 3;animation:dash2 1.5s linear infinite .5s}
+      .e6{stroke-dasharray:4 4;animation:dash3 1.9s linear infinite 1.3s}
+      .e7{stroke-dasharray:5 5;animation:dash1 2.4s linear infinite .2s}
+      .title-g{animation:fadein 0.8s ease-out both 0.2s}
+      .sub-g{animation:fadein 0.8s ease-out both 0.5s}
+      .tag-g{animation:fadein 0.8s ease-out both 0.8s}
+      .cursor{animation:blink 1s step-end infinite}
+      @media(prefers-reduced-motion:reduce){
+        .n1,.n2,.n3,.n4,.n5,.n6,.n7,.n8,
+        .e1,.e2,.e3,.e4,.e5,.e6,.e7,
+        .title-g,.sub-g,.tag-g{animation:none;opacity:1}
+      }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="680" height="220" rx="14" fill="#0d1117"/>
+
+  <g stroke="#ffffff" stroke-width="0.3" opacity="0.04">
+    <line x1="0" y1="44" x2="680" y2="44"/>
+    <line x1="0" y1="88" x2="680" y2="88"/>
+    <line x1="0" y1="132" x2="680" y2="132"/>
+    <line x1="0" y1="176" x2="680" y2="176"/>
+    <line x1="136" y1="0" x2="136" y2="220"/>
+    <line x1="272" y1="0" x2="272" y2="220"/>
+    <line x1="408" y1="0" x2="408" y2="220"/>
+    <line x1="544" y1="0" x2="544" y2="220"/>
+  </g>
+
+  <line class="e1" x1="520" y1="38"  x2="580" y2="80"  stroke="#534AB7" stroke-width="1" fill="none"/>
+  <line class="e2" x1="580" y1="80"  x2="630" y2="50"  stroke="#534AB7" stroke-width="1" fill="none"/>
+  <line class="e3" x1="580" y1="80"  x2="610" y2="130" stroke="#0F6E56" stroke-width="1" fill="none"/>
+  <line class="e4" x1="610" y1="130" x2="648" y2="100" stroke="#0F6E56" stroke-width="1" fill="none"/>
+  <line class="e5" x1="610" y1="130" x2="640" y2="165" stroke="#534AB7" stroke-width="1" fill="none"/>
+  <line class="e6" x1="520" y1="38"  x2="500" y2="95"  stroke="#993C1D" stroke-width="1" fill="none"/>
+  <line class="e7" x1="500" y1="95"  x2="540" y2="140" stroke="#993C1D" stroke-width="1" fill="none"/>
+  <line class="e1" x1="540" y1="140" x2="610" y2="130" stroke="#0F6E56" stroke-width="1" fill="none"/>
+  <line class="e3" x1="500" y1="95"  x2="580" y2="80"  stroke="#534AB7" stroke-width="0.7" fill="none" opacity="0.5"/>
+  <line class="e5" x1="540" y1="140" x2="640" y2="165" stroke="#534AB7" stroke-width="0.7" fill="none" opacity="0.4"/>
+  <line class="e2" x1="630" y1="50"  x2="648" y2="100" stroke="#0F6E56" stroke-width="0.7" fill="none" opacity="0.4"/>
+
+  <circle class="n1" cx="520" cy="38"  r="4"   fill="#7F77DD"/>
+  <circle class="n2" cx="580" cy="80"  r="5"   fill="#534AB7"/>
+  <circle class="n3" cx="630" cy="50"  r="3.5" fill="#5DCAA5"/>
+  <circle class="n4" cx="610" cy="130" r="5"   fill="#1D9E75"/>
+  <circle class="n5" cx="648" cy="100" r="3"   fill="#5DCAA5"/>
+  <circle class="n6" cx="640" cy="165" r="4"   fill="#7F77DD"/>
+  <circle class="n7" cx="500" cy="95"  r="4.5" fill="#D85A30"/>
+  <circle class="n8" cx="540" cy="140" r="3.5" fill="#993C1D"/>
+
+  <rect x="620" y="0" width="60" height="220" fill="url(#fade-r)"/>
+  <rect x="0" y="160" width="680" height="60" fill="url(#fade-b)"/>
+
+  <g class="title-g">
+    <text x="44" y="82" font-family="'SF Mono','Fira Code',monospace" font-size="11" fill="#5DCAA5" letter-spacing="2" opacity="0.9">~/sonalisidana13</text>
+    <text x="40" y="124" font-family="system-ui,sans-serif" font-size="36" font-weight="700" fill="#ffffff" letter-spacing="-0.5">Sonali Sidana</text>
+  </g>
+  <rect class="cursor" x="280" y="103" width="3" height="26" rx="1" fill="#534AB7"/>
+
+  <g class="sub-g">
+    <text x="42" y="150" font-family="system-ui,sans-serif" font-size="14" fill="#8b949e" letter-spacing="0.3">Senior Software Engineer  ·  Tech Lead  ·  Backend &amp; Platform</text>
+  </g>
+
+  <g class="tag-g">
+    <rect x="42"  y="166" width="50"  height="22" rx="11" fill="#26215C"/>
+    <text x="67"  y="181" font-family="system-ui,sans-serif" font-size="11" fill="#AFA9EC" text-anchor="middle">Java</text>
+    <rect x="100" y="166" width="84"  height="22" rx="11" fill="#04342C"/>
+    <text x="142" y="181" font-family="system-ui,sans-serif" font-size="11" fill="#5DCAA5" text-anchor="middle">Spring Boot</text>
+    <rect x="192" y="166" width="46"  height="22" rx="11" fill="#412402"/>
+    <text x="215" y="181" font-family="system-ui,sans-serif" font-size="11" fill="#EF9F27" text-anchor="middle">AWS</text>
+    <rect x="246" y="166" width="52"  height="22" rx="11" fill="#26215C"/>
+    <text x="272" y="181" font-family="system-ui,sans-serif" font-size="11" fill="#AFA9EC" text-anchor="middle">Kafka</text>
+    <rect x="306" y="166" width="128" height="22" rx="11" fill="#04342C"/>
+    <text x="370" y="181" font-family="system-ui,sans-serif" font-size="11" fill="#5DCAA5" text-anchor="middle">Distributed Systems</text>
+  </g>
+</svg>
